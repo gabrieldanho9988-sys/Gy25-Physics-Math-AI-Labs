@@ -1,27 +1,35 @@
-# Gy25-Fysik-Matte-AI-Labbar-Danderyds-Gymnasium-
-En samling laborationer för Fysik 1, Fysik 2 och Matematik 4 på Danderyds gymnasium. Här integreras modern AI och maskininlärning praktiskt i undervisningen enligt Gy25 för att förbereda eleverna för framtidens teknik.
+# Gy25 Physics & Math AI Labs
 
-En samling interaktiva Jupyter/Colab-laborationer som överbryggar avancerad AI och automation med gymnasienivå. Materialet är anpassat för Fysik 1, Fysik 2 och Matematik 4 på Danderyds gymnasium i enlighet med Gy25. Här integreras modern maskininlärning praktiskt i undervisningen för att förbereda eleverna för framtidens teknik.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)
+![Curriculum](https://img.shields.io/badge/Curriculum-Gy25%20(Sweden)-2a74b8?style=flat-square)
 
-## Innehåll
-Detta repository kommer att fyllas på allt eftersom kurserna fortlöper. 
+Interactive Jupyter/Google Colab labs that bring machine learning into upper-secondary **Physics 1, Physics 2 and Mathematics 4**, following Sweden's Gy25 curriculum. The labs connect ideas from AI and automation to upper-secondary level, so students meet modern machine learning in their regular physics and math lessons.
 
-### Fysik 1
-* **ML-LABB 1: Hur exakt är π?** (Kapitel 2: Fysikens arbetsmetoder och modeller)
-  * [Starta laborationen i Google Colab](https://colab.research.google.com/drive/1iDe7cRy_rrm-EFkiFl3juFZ4EPTxNN8L#scrollTo=F1h_D2b6SkmD)
-  * **Syfte:** Eleverna mäter diameter och omkrets på runda föremål och låter datorn hitta sambandet via linjär regression. Detta introducerar maskininlärningens grundkoncept (förlustfunktion/felsumma, träning av modell) parallellt med fysikens begrepp (noggrannhet, precision och mätosäkerhet).
+> 🇸🇪 The lab material is written in Swedish for Swedish upper-secondary students.
 
+## Contents
+New labs are added as the courses progress.
 
-## Kom igång för elever
-Så här gör du för att köra laborationerna i Google Colab:
+### Physics 1
+- **ML lab 1: How accurate is π?** *(ML-LABB 1: Hur exakt är π?)*, chapter 2: methods and models in physics
+  - [Open the lab in Google Colab](https://colab.research.google.com/github/gabrieldanho9988-sys/Gy25-Physics-Math-AI-Labs/blob/main/ML_LABB1_Hur_exakt_ar_pi.ipynb)
+  - **Purpose:** students measure the diameter and circumference of round objects and let the computer find the relationship with linear regression. This introduces the core ideas of machine learning (loss function / sum of squared errors, training a model) alongside physics concepts (accuracy, precision and measurement uncertainty).
 
-1. **Öppna Colab:** Klicka på länken "Starta laborationen i Google Colab" ovan, eller gå till `colab.research.google.com` och ladda upp filen från detta repository. Logga in med ditt skolkonto.
-2. **Spara en kopia:** **Detta är det viktigaste steget!** Klicka på `Arkiv` → `Spara en kopia i Drive` *innan* du börjar arbeta. Annars försvinner dina ändringar när du stänger fliken.
-3. **Kör celler:** Klicka i en kodcell och tryck `Shift + Enter` för att köra den. Arbeta uppifrån och ned.
+## Getting started (for students)
+How to run the labs in Google Colab:
 
-### 💡 Tre viktiga tips för Python i Colab
-* **Använd punkt för decimaler:** Python förstår inte kommatecken som decimal. Skriv `7.6`, inte `7,6`.
-* **Lika långa listor:** När du matar in mätdata, se till att det finns lika många värden för t.ex. diameter som för omkrets, och att de står i rätt ordning.
-* **Ändra bara det du ska:** Ändra bara värden där det tydligt står `ÄNDRA HÄR`. Resten av koden fungerar som den ska!
+1. **Open Colab:** click *Open the lab in Google Colab* above, or go to `colab.research.google.com` and upload the file from this repository. Sign in with your school account.
+2. **Save a copy:** this is the most important step! Click `File` → `Save a copy in Drive` *before* you start working. Otherwise your changes are lost when you close the tab.
+3. **Run the cells:** click in a code cell and press `Shift + Enter` to run it. Work from top to bottom.
 
-Om något hänger sig eller koden slutar fungera kan du alltid välja `Körning` → `Starta om och kör alla` i toppmenyn för att nollställa. Du kan aldrig "ta sönder" originalfilen.
+### 💡 Three tips for Python in Colab
+- **Use a point for decimals:** Python does not read a comma as a decimal sign. Write `7.6`, not `7,6`.
+- **Keep the lists the same length:** when you enter your measurements, make sure there are as many values for the diameter as for the circumference, and that they are in the same order.
+- **Only change what you should:** only change values marked `ÄNDRA HÄR` (“change here”). The rest of the code works as it is.
+
+If something freezes or stops working, choose `Runtime` → `Restart and run all` in the top menu to reset. You can never “break” the original file.
+
+---
+
+**Gabriel Danho** · Licensed upper-secondary teacher in physics, mathematics and AI · [GitHub profile](https://github.com/gabrieldanho9988-sys)
